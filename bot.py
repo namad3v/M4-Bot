@@ -78,7 +78,6 @@ async def start(
             InlineKeyboardButton("👥 Group", url=GROUP_LINK),
         ],
         [
-            InlineKeyboardButton("🔗 Link", url=GROUP_LINK),
             InlineKeyboardButton("⚙️ Others", callback_data="others"),
         ],
     ]
